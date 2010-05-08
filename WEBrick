@@ -1,0 +1,155 @@
+Script started on Sat 08 May 2010 11:05:52 AM CDT
+]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 10:03 ?        00:00:03 init [2]  
+root         2     0  0 10:03 ?        00:00:00 [kthreadd]
+root         3     2  0 10:03 ?        00:00:00 [migration/0]
+root         4     2  0 10:03 ?        00:00:00 [ksoftirqd/0]
+root         5     2  0 10:03 ?        00:00:00 [watchdog/0]
+root         6     2  0 10:03 ?        00:00:00 [events/0]
+root         7     2  0 10:03 ?        00:00:00 [khelper]
+root        39     2  0 10:03 ?        00:00:00 [kblockd/0]
+root        41     2  0 10:03 ?        00:00:00 [kacpid]
+root        42     2  0 10:03 ?        00:00:00 [kacpi_notify]
+root       172     2  0 10:03 ?        00:00:00 [kseriod]
+root       208     2  0 10:03 ?        00:00:00 [pdflush]
+root       209     2  0 10:03 ?        00:00:00 [pdflush]
+root       210     2  0 10:03 ?        00:00:00 [kswapd0]
+root       211     2  0 10:03 ?        00:00:00 [aio/0]
+root       760     2  0 10:03 ?        00:00:00 [ata/0]
+root       761     2  0 10:03 ?        00:00:00 [ata_aux]
+root       786     2  0 10:03 ?        00:00:00 [ksuspend_usbd]
+root       787     2  0 10:03 ?        00:00:00 [khubd]
+root       952     2  0 10:03 ?        00:00:00 [scsi_eh_0]
+root      1069     2  0 10:03 ?        00:00:03 [kjournald]
+root      1145     1  0 10:03 ?        00:00:01 udevd --daemon
+root      1622     2  0 10:03 ?        00:00:00 [kgameportd]
+root      1729     2  0 10:03 ?        00:00:00 [kpsmoused]
+daemon    2069     1  0 10:03 ?        00:00:00 /sbin/portmap
+statd     2083     1  0 10:03 ?        00:00:00 /sbin/rpc.statd
+root      2564     2  0 10:03 ?        00:00:00 [vmmemctl]
+root      2744     1  0 10:03 ?        00:00:10 /usr/sbin/vmtoolsd
+root      2782     1  0 10:03 ?        00:00:00 /usr/sbin/cupsd
+root      2838     2  0 10:03 ?        00:00:00 [kondemand/0]
+root      2880     1  0 10:04 ?        00:00:00 /usr/sbin/rsyslogd -c3
+root      2891     1  0 10:04 ?        00:00:00 /usr/sbin/acpid
+103       2901     1  0 10:04 ?        00:00:00 /usr/bin/dbus-daemon --system
+avahi     2913     1  0 10:04 ?        00:00:00 avahi-daemon: running [debian5.l
+avahi     2914  2913  0 10:04 ?        00:00:00 avahi-daemon: chroot helper
+101       3199     1  0 10:04 ?        00:00:00 /usr/sbin/exim4 -bd -q30m
+root      3209     1  0 10:04 ?        00:00:00 /usr/sbin/kerneloops
+root      3222     1  0 10:04 ?        00:00:00 /usr/sbin/dhcdbd --system
+106       3233     1  0 10:04 ?        00:00:00 /usr/sbin/hald
+root      3234  3233  0 10:04 ?        00:00:00 hald-runner
+root      3252  3234  0 10:04 ?        00:00:00 hald-addon-input: Listening on /
+106       3260  3234  0 10:04 ?        00:00:00 hald-addon-acpi: listening on ac
+root      3261  3234  0 10:04 ?        00:00:00 hald-addon-storage: no polling o
+root      3263  3234  0 10:04 ?        00:00:03 hald-addon-storage: polling /dev
+root      3275     1  0 10:04 ?        00:00:00 /usr/sbin/NetworkManager --pid-f
+root      3286     1  0 10:04 ?        00:00:00 /usr/sbin/NetworkManagerDispatch
+root      3315     1  0 10:04 ?        00:00:00 /usr/sbin/gdm
+root      3318  3315  0 10:04 ?        00:00:00 /usr/sbin/gdm
+root      3324  3318 24 10:04 tty7     00:15:21 /usr/X11R6/bin/X :0 -audit 0 -au
+root      3333     1  0 10:04 ?        00:00:00 /usr/bin/system-tools-backends
+daemon    3356     1  0 10:04 ?        00:00:00 /usr/sbin/atd
+root      3380     1  0 10:04 ?        00:00:00 /usr/sbin/cron
+root      3413     1  0 10:04 tty1     00:00:00 /sbin/getty 38400 tty1
+root      3414     1  0 10:04 tty2     00:00:00 /sbin/getty 38400 tty2
+root      3418     1  0 10:04 tty3     00:00:00 /sbin/getty 38400 tty3
+root      3420     1  0 10:04 tty4     00:00:00 /sbin/getty 38400 tty4
+root      3422     1  0 10:04 tty5     00:00:00 /sbin/getty 38400 tty5
+root      3424     1  0 10:04 tty6     00:00:00 /sbin/getty 38400 tty6
+jim       3486     1  0 10:04 ?        00:00:01 /usr/lib/libgconf2-4/gconfd-2 11
+jim       3488     1  0 10:04 ?        00:00:00 /usr/bin/gnome-keyring-daemon -d
+jim       3489  3318  0 10:04 ?        00:00:00 x-session-manager
+jim       3537     1  0 10:04 ?        00:00:00 /usr/bin/dbus-launch --exit-with
+jim       3538     1  0 10:04 ?        00:00:00 /usr/bin/dbus-daemon --fork --pr
+jim       3544  3489  0 10:04 ?        00:00:00 /usr/bin/seahorse-agent --execut
+jim       3547  3489  0 10:04 ?        00:00:07 gnome-settings-daemon
+jim       3565     1  0 10:04 ?        00:00:02 gnome-screensaver
+jim       3566  3489  0 10:04 ?        00:00:03 /usr/bin/metacity --sm-client-id
+jim       3567  3489  0 10:04 ?        00:00:04 gnome-panel --sm-client-id defau
+jim       3569  3489  0 10:04 ?        00:00:30 nautilus --no-default-window --s
+jim       3576     1  0 10:04 ?        00:00:00 /usr/lib/bonobo-activation/bonob
+jim       3578  3489  0 10:04 ?        00:00:00 bluetooth-applet --singleton
+jim       3581  3489  0 10:04 ?        00:00:00 update-notifier
+jim       3583     1  0 10:04 ?        00:00:00 /usr/lib/gnome-vfs-2.0/gnome-vfs
+jim       3587  3489  0 10:04 ?        00:00:00 /usr/bin/python /usr/bin/system-
+jim       3588     1  0 10:04 ?        00:00:13 /usr/lib/vmware-tools/bin32/vmwa
+jim       3590  3489  0 10:04 ?        00:00:00 kerneloops-applet
+jim       3593  3489  0 10:04 ?        00:00:05 nm-applet --sm-disable
+jim       3599     1  0 10:04 ?        00:00:00 /usr/lib/gnome-volume-manager/gn
+jim       3600     1  0 10:04 ?        00:00:00 gnome-power-manager
+jim       3614     1  0 10:04 ?        00:00:00 /usr/lib/nautilus-cd-burner/mapp
+jim       3617     1  0 10:04 ?        00:00:00 /usr/lib/gnome-applets/mixer_app
+jim       3635     1  0 10:05 ?        00:00:03 gnome-terminal
+jim       3641  3635  0 10:05 ?        00:00:00 gnome-pty-helper
+jim       3642  3635  0 10:05 pts/0    00:00:00 bash
+jim       4226     1  0 10:59 ?        00:00:01 /usr/lib/notification-daemon/not
+root      4321  3222  0 11:00 ?        00:00:00 /sbin/dhclient -1 -lf /var/lib/d
+jim       4448  3642  0 11:05 pts/0    00:00:00 script WEBrick
+jim       4449  4448  0 11:05 pts/0    00:00:00 script WEBrick
+jim       4450  4449  0 11:05 pts/1    00:00:00 bash -i
+jim       4467     1  0 11:06 ?        00:00:00 /bin/sh /usr/bin/firefox
+jim       4480  4467  0 11:06 ?        00:00:00 /bin/sh /usr/lib/firefox/run-moz
+jim       4484  4480 20 11:06 ?        00:00:15 /usr/lib/firefox/firefox-bin
+jim       4536  4450  0 11:07 pts/1    00:00:00 ps -ef
+]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ [K]0;jim@debian5: ~/rails_projects/first_appjim@debian5:~/rails_projects/first_app$ ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 10:03 ?        00:00:03 init [2]  
+root         2     0  0 10:03 ?        00:00:00 [kthreadd]
+root         3     2  0 10:03 ?        00:00:00 [migration/0]
+root         4     2  0 10:03 ?        00:00:00 [ksoftirqd/0]
+root         5     2  0 10:03 ?        00:00:00 [watchdog/0]
+root         6     2  0 10:03 ?        00:00:00 [events/0]
+root         7     2  0 10:03 ?        00:00:00 [khelper]
+root        39     2  0 10:03 ?        00:00:00 [kblockd/0]
+root        41     2  0 10:03 ?        00:00:00 [kacpid]
+root        42     2  0 10:03 ?        00:00:00 [kacpi_notify]
+root       172     2  0 10:03 ?        00:00:00 [kseriod]
+root       208     2  0 10:03 ?        00:00:00 [pdflush]
+root       209     2  0 10:03 ?        00:00:00 [pdflush]
+root       210     2  0 10:03 ?        00:00:00 [kswapd0]
+root       211     2  0 10:03 ?        00:00:00 [aio/0]
+root       760     2  0 10:03 ?        00:00:00 [ata/0]
+root       761     2  0 10:03 ?        00:00:00 [ata_aux]
+root       786     2  0 10:03 ?        00:00:00 [ksuspend_usbd]
+root       787     2  0 10:03 ?        00:00:00 [khubd]
+root       952     2  0 10:03 ?        00:00:00 [scsi_eh_0]
+root      1069     2  0 10:03 ?        00:00:03 [kjournald]
+root      1145     1  0 10:03 ?        00:00:01 udevd --daemon
+root      1622     2  0 10:03 ?        00:00:00 [kgameportd]
+root      1729     2  0 10:03 ?        00:00:00 [kpsmoused]
+daemon    2069     1  0 10:03 ?        00:00:00 /sbin/portmap
+statd     2083     1  0 10:03 ?        00:00:00 /sbin/rpc.statd
+root      2564     2  0 10:03 ?        00:00:00 [vmmemctl]
+root      2744     1  0 10:03 ?        00:00:10 /usr/sbin/vmtoolsd
+root      2782     1  0 10:03 ?        00:00:00 /usr/sbin/cupsd
+root      2838     2  0 10:03 ?        00:00:00 [kondemand/0]
+root      2880     1  0 10:04 ?        00:00:00 /usr/sbin/rsyslogd -c3
+root      2891     1  0 10:04 ?        00:00:00 /usr/sbin/acpid
+103       2901     1  0 10:04 ?        00:00:00 /usr/bin/dbus-daemon --system
+avahi     2913     1  0 10:04 ?        00:00:00 avahi-daemon: running [debian5.local]
+avahi     2914  2913  0 10:04 ?        00:00:00 avahi-daemon: chroot helper
+101       3199     1  0 10:04 ?        00:00:00 /usr/sbin/exim4 -bd -q30m
+root      3209     1  0 10:04 ?        00:00:00 /usr/sbin/kerneloops
+root      3222     1  0 10:04 ?        00:00:00 /usr/sbin/dhcdbd --system
+106       3233     1  0 10:04 ?        00:00:00 /usr/sbin/hald
+root      3234  3233  0 10:04 ?        00:00:00 hald-runner
+root      3252  3234  0 10:04 ?        00:00:00 hald-addon-input: Listening on /dev/input/event1 /dev/input/event0
+106       3260  3234  0 10:04 ?        00:00:00 hald-addon-acpi: listening on acpid socket /var/run/acpid.socket
+root      3261  3234  0 10:04 ?        00:00:00 hald-addon-storage: no polling on /dev/fd0 because it is explicitly disabled
+root      3263  3234  0 10:04 ?        00:00:03 hald-addon-storage: polling /dev/hdc (every 2 sec)
+root      3275     1  0 10:04 ?        00:00:00 /usr/sbin/NetworkManager --pid-file /var/run/NetworkManager/NetworkManager.pid
+root      3286     1  0 10:04 ?        00:00:00 /usr/sbin/NetworkManagerDispatcher --pid-file /var/run/NetworkManager/NetworkManager
+root      3315     1  0 10:04 ?        00:00:00 /usr/sbin/gdm
+root      3318  3315  0 10:04 ?        00:00:00 /usr/sbin/gdm
+root      3324  3318 24 10:04 tty7     00:15:24 /usr/X11R6/bin/X :0 -audit 0 -auth /var/lib/gdm/:0.Xauth -nolisten tcp vt7
+root      3333     1  0 10:04 ?        00:00:00 /usr/bin/system-tools-backends
+daemon    3356     1  0 10:04 ?        00:00:00 /usr/sbin/atd
+root      3380     1  0 10:04 ?        00:00:00 /usr/sbin/cron
+root      3413     1  0 10:04 tty1     00:00:00 /sbin/getty 38400 tty1
+root      3414     1  0 10:04 tty2     00:00:00 /sbin/getty 38400 tty2
+root      3418     1  0 10:04 tty3     00:00:00 /sbin/getty 38400 tty3
+root      3420     1  0 10:04 tty4     00:00:00 /sbin/getty 38400 tty4
+root      3422  
